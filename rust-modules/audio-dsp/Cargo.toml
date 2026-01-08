@@ -1,0 +1,13 @@
+[package]
+name = "audio-dsp"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[lib]
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
+# Minimal dependencies - pure logic module
+# Add SIMD support if needed
+# packed_simd = "0.3"

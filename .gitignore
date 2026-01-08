@@ -1,0 +1,32 @@
+# Build directories
+build/
+target/
+cmake-build-*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# C++
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+
+# Rust
+**/*.rs.bk
+Cargo.lock
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db

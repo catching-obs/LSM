@@ -1,0 +1,15 @@
+[package]
+name = "video-encoder"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[lib]
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
+crossbeam.workspace = true
+
+# Video encoding dependencies (commented out - add when needed)
+# ffmpeg-next = "6.0"
+# tokio = { version = "1.35", features = ["full"] }
